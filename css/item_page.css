@@ -1,0 +1,67 @@
+.item_page_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    box-sizing: border-box;
+}
+.item_container{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item_container_order{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.item_container_name{
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.item_container_info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 60%;
+
+}
+.item_container_price{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+.item_container_brand{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+.item_container img{
+    width: 100%;
+    margin: 30px;
+    border: 1px solid black;
+    transition: .4s;
+}
+.item_container img:hover{
+    box-shadow: 10px 8px 13px 4px rgba(34, 60, 80, 0.32);
+}
+.item_page_description{
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    width: 90%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+.desc{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    margin-bottom: 60px;
+}
